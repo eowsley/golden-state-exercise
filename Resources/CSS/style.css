@@ -5,8 +5,19 @@
 }
 header {
   height: 70px;
-  background: pink;
+  background: #f2f2f2;
   font-family: sans-serif;
+  display:flex;
+}
+nav {
+  margin: auto;
+  display: inline-block;
+}
+nav ul {
+  align-content: center;
+}
+nav li {
+  display: inline;
 }
 main {
   font-size: 0;
