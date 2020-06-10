@@ -19,6 +19,11 @@ nav ul {
 nav li {
   display: inline;
 }
+body {
+  color: black;
+  text-decoration:none;
+  font-family: "Calibri";
+}
 main {
   font-size: 0;
   width: 60%;
@@ -33,29 +38,30 @@ main {
   height: 200px;
   background-image: URL(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
 }
+.columns {
+  padding: 10px:
+}
+p {
+  font-size: 12px;
+}
 main .row {
   display: flex;
 }
 main .row div {
   flex: 1;
-  height: 300px;
 }
-.yellow {
-  background: yellow;
-}
-.red {
-  background: red;
-}
-.green {
-  background: green;
-}
+
 footer {
   height: 50px;
-  background: purple;
   position: fixed;
   width: 100%;
   bottom: 0;
   box-sizing: border-box;
+  padding: 10px;
+}
+i {
+  text-align:right;
+  color: purple;
 }
 
 @media only screen and (max-width: 900px) {
